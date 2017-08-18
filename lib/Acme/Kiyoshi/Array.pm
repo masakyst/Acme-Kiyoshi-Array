@@ -26,10 +26,20 @@ __END__
 
 =head1 NAME
 
-Acme::Kiyoshi::Array - It's new ズンドコキヨシ
+Acme::Kiyoshi::Array - It's new ZUNDOKO Kiyoshi Array
 
 =head1 SYNOPSIS
+
     use Acme::Kiyoshi::Array;
+
+    my @ary = ();
+    push @ary, "ズン";
+    push @ary, "ズン";
+    push @ary, "ズン";
+    push @ary, "ズン";
+    push @ary, "ドコ";
+    print @ary;
+
 
 =head1 DESCRIPTION
 
