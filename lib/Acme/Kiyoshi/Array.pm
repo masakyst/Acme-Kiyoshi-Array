@@ -8,12 +8,12 @@ our $VERSION = "0.02";
 
 BEGIN {
     *CORE::GLOBAL::push = sub(\@@) {
-		my ($array, $value) = @_;
+        my ($array, $value) = @_;
         my $res = CORE::push(@$array, $value);
 
-		if (scalar(@$array) >= 5 && join('', @$array[-5..-1]) =~ /ズンズンズンズンドコ/) {
-        	$res = CORE::push(@$array, "キ・ヨ・シ！");
-		}
+        if (scalar(@$array) >= 5 && join('', @$array[-5..-1]) =~ /ズンズンズンズンドコ/) {
+            $res = CORE::push(@$array, "キ・ヨ・シ！");
+        }
 
         return $res;
     };  
