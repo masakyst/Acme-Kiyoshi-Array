@@ -15,8 +15,6 @@ push @ary, "ズン";
 push @ary, "ドコ";
 print @ary;
 
-exit;
-
 
 while () {
     push @ary, qw/ズン ドコ/[rand 2];

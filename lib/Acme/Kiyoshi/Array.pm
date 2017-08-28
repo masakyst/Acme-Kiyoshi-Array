@@ -30,6 +30,7 @@ Acme::Kiyoshi::Array - It's new ZUNDOKO Kiyoshi Array
 
 =head1 SYNOPSIS
 
+    use utf8;
     use Acme::Kiyoshi::Array;
 
     my @ary = ();
@@ -44,6 +45,12 @@ Acme::Kiyoshi::Array - It's new ZUNDOKO Kiyoshi Array
 =head1 DESCRIPTION
 
 Acme::Kiyoshi::Array is ...
+
+  http://qiita.com/shunsugai@github/items/971a15461de29563bf90
+
+=head1 SEE ALSO
+
+    eg/kiyoshi.pl
 
 =head1 LICENSE
 
